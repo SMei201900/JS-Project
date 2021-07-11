@@ -1,0 +1,44 @@
+.firstgradient {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+button {
+  margin: 20px auto;
+  font-weight: bold;
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.credit {
+  font-size: 15px;
+}
+
+.profile {
+  color: black;
+  text-decoration: none;
+}
+
+.profile:hover {
+  text-decoration: underline;
+  transition: all 200ms ease-in-out;
+}
